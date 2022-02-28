@@ -19,7 +19,7 @@ export default function SingleMoviesPage(props) {
     )
       .then(res => setMovie(res.data))
       .catch(err => console.error(err));
-  }, []);
+  });
 
   
   return (

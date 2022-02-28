@@ -80,7 +80,7 @@ export default function HomePage() {
 
   useEffect(() => {
     getAllMovies();
-  }, []);
+  });
 
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
